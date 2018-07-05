@@ -30,7 +30,7 @@ import org.springframework.stereotype.Component;
 class IprestrictAspect {
 	
 	Set<String> blockedIpPool; //Holds blocked ip addresses
-	private final String IP_BLOCK_LIST_PATH = "L:\\spring-tool-suite-3.9.4.RELEASE-e4.7.3a-win32\\projs\\iprestrict\\src\\main\\java\\ipblocklist";
+	private final String IP_BLOCK_LIST_PATH = "Absolute path and file name of ipblocklist";
 	
 	/*This default constructor builds hashset containing blocked ip address from ipblocklist file*/
 	IprestrictAspect(){ 
